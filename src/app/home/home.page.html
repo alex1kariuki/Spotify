@@ -1,14 +1,43 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="medium">
     <ion-title>
-      Ionic Blank
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+<ion-content color="dark">
+  
+
+
+  <!-- Ion tabs -->
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" color="medium">
+      <ion-tab-button tab="schedule">
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+        <!-- <ion-badge>6</ion-badge> -->
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-icon name="albums"></ion-icon>
+        <ion-label>Browse</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="search"></ion-icon>
+        <ion-label>Search</ion-label>
+      </ion-tab-button> 
+      
+      <ion-tab-button tab="map">
+        <ion-icon name="radio"></ion-icon>
+        <ion-label>Radio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="about">
+        <ion-icon name="book"></ion-icon>
+        <ion-label>Library</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
