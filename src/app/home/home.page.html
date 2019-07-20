@@ -83,30 +83,29 @@
     </ion-slide>
   </ion-slides>
 
+
+</ion-content>
+<ion-footer>
+
   <ion-progress-bar value="0.1"></ion-progress-bar>
   <div class="footer-bar">
     <ion-row>
       <ion-col size="1" align-self: center>
         <!-- up arrow -->
-        <ion-icon name="arrow-up"></ion-icon>
+        <ion-icon name="arrow-up" id="arrow"></ion-icon>
       </ion-col>
       <ion-col>
         <!-- Song Playing -->
         <p id="song">1000 Nights·FRENSHIP</p>
-        <ion-row>
-          <ion-col>
-            <ion-icon name="volume-high" id="speaker"></ion-icon>
-          </ion-col>
-          <ion-col>
-              <p id="album">HACKINTOSH Z400</p> 
-          </ion-col>
-        </ion-row>
+
+        <!-- <ion-icon name="volume-high" id="speaker"></ion-icon> -->
+        <p id="album">HACKINTOSH Z400</p>
       </ion-col>
-      <ion-col size="1">
+      <ion-col size="1.5">
         <!-- pause play -->
-        <ion-icon name="pause"></ion-icon>
+        <ion-icon name="pause" id="pause"></ion-icon>
       </ion-col>
     </ion-row>
   </div>
-</ion-content>
 
+</ion-footer>
