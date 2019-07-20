@@ -1,9 +1,86 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>browse</ion-title>
+  <ion-toolbar color="medium">
+    <ion-title>Browse</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
+  <p class="title">Ready for Saturday night</p>
+  <!-- Recently played -->
+  <ion-slides [options]="slideOptions">
+    <ion-slide>
+      <ion-card class="album">
+        <img src="./assets/albums/images.png" class="albumCover" />
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card class="album">
+        <img src="./assets/albums/1.jpeg">
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card class="album">
+        <img src="./assets/albums/images (1).jpeg">
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card class="album">
+        <img src="./assets/albums/images.jpeg">
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
 
+  <!-- Categories -->
+  <ion-list class="listCategory" padding>
+    <div class="containter">
+      <ion-icon name="trending-up" class="icon"></ion-icon>
+      <p id="category">Charts</p>
+    </div>
+    <div class="containter">
+      <ion-icon name="calendar" class="icon"></ion-icon>
+      <p id="category">New Releases</p>
+    </div>
+    <div class="containter">
+      <ion-icon name="analytics" class="icon"></ion-icon>
+      <p id="category">Discover</p>
+    </div>
+    <div class="containter">
+      <ion-icon name="map" class="icon"></ion-icon>
+      <p id="category">Concerts</p>
+    </div>
+  </ion-list>
+  <!-- Genre and Moods -->
+  <p class="title">Genres & Moods</p>
+  <ion-list class="listCategory">
+    <ion-row class="genreRow">
+      <ion-col>
+        <img src="assets/albums/mood1.jpeg" />
+        <p id="genreTitle">Mood</p>
+      </ion-col>
+      <ion-col>
+        <img src="assets/albums/mood1.jpeg" />
+        <p id="genreTitle">Mood</p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="genreRow">
+        <ion-col>
+          <img src="assets/albums/mood1.jpeg" />
+          <p id="genreTitle">Mood</p>
+        </ion-col>
+        <ion-col>
+          <img src="assets/albums/mood1.jpeg" />
+          <p id="genreTitle">Mood</p>
+        </ion-col>
+      </ion-row>
+      <ion-row class="genreRow">
+          <ion-col>
+            <img src="assets/albums/mood1.jpeg" />
+            <p id="genreTitle">Mood</p>
+          </ion-col>
+          <ion-col>
+            <img src="assets/albums/mood1.jpeg" />
+            <p id="genreTitle">Mood</p>
+          </ion-col>
+        </ion-row>
+  </ion-list>
 </ion-content>

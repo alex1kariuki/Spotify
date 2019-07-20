@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BrowsePage implements OnInit {
 
-  constructor() { }
+  slideOptions: any;
+
+  constructor() {
+    this.slideOptions = {
+      initialSlide: 0,
+      slidesPerView: 2.5,
+      autoplay: false,
+      loop: true
+    };
+  }
 
   ngOnInit() {
   }

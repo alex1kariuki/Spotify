@@ -1,0 +1,36 @@
+.album{
+    // width: 140px;
+    // height: 140px;
+    border-radius: 3px;
+    background-color: white;
+}
+.title{
+    text-align: center;
+}
+.container{
+    height: 50px;
+    margin-top: 100px;
+}
+.icon{
+    font-size: 25px;
+    margin-top: -20px;
+    color: #8d8d8d;
+}
+#category{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: -25px;
+    color: #bba6a6;
+}
+.listCategory{
+    background: transparent;
+}
+#genreTitle{
+    font-weight: bold;
+    text-align: center;
+    margin-top: -60px;
+}
+.genreRow{
+    margin-top:10px;
+    margin-bottom: 25px;
+}
