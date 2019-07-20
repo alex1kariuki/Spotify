@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  slideOptions: any;
+
+  constructor() {
+    this.slideOptions = {
+      initialSlide: 0,
+      slidesPerView: 2.5,
+      autoplay: false,
+      loop: true
+    };
+  }
 
 }

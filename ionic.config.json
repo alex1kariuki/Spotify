@@ -1,5 +1,7 @@
 {
   "name": "spotify",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
