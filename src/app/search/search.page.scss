@@ -5,3 +5,32 @@
     text-align: center;
     font-weight: bold;
 }
+#title{
+    font-weight: bold;
+    text-align: center;
+}
+.searchIcon{
+    height: 50px;
+}
+.searchList{
+    background: transparent;
+}
+.closeIcon{
+    font-size: 40px;
+    color: #383838;
+}
+#songTitle{
+    margin-top:auto;
+    font-size: 19px;
+}
+#songDesc{
+    margin-top: -15px;
+    font-size: 15px;
+    color: #a7a5a5;
+}
+.micIcon{
+    color: red;
+}
+.searchFab{
+    background-color: red;
+}
