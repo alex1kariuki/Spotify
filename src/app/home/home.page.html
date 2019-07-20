@@ -7,6 +7,7 @@
 </ion-header>
 
 <ion-content color="dark">
+
   <p class="title">Recently Played</p>
   <!-- Recently played -->
   <ion-slides [options]="slideOptions">
@@ -17,17 +18,17 @@
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/1.jpeg">
+        <img src="./assets/albums/1.jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images (1).jpeg">
+        <img src="./assets/albums/images (1).jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images.jpeg">
+        <img src="./assets/albums/images.jpeg">
       </ion-card>
     </ion-slide>
   </ion-slides>
@@ -42,17 +43,17 @@
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/1.jpeg">
+        <img src="./assets/albums/1.jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images (1).jpeg">
+        <img src="./assets/albums/images (1).jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images.jpeg">
+        <img src="./assets/albums/images.jpeg">
       </ion-card>
     </ion-slide>
   </ion-slides>
@@ -67,50 +68,45 @@
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/1.jpeg">
+        <img src="./assets/albums/1.jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images (1).jpeg">
+        <img src="./assets/albums/images (1).jpeg">
       </ion-card>
     </ion-slide>
     <ion-slide>
       <ion-card class="album">
-          <img src="./assets/albums/images.jpeg">
+        <img src="./assets/albums/images.jpeg">
       </ion-card>
     </ion-slide>
   </ion-slides>
 
- 
+  <ion-progress-bar value="0.1"></ion-progress-bar>
+  <div class="footer-bar">
+    <ion-row>
+      <ion-col size="1" align-self: center>
+        <!-- up arrow -->
+        <ion-icon name="arrow-up"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <!-- Song Playing -->
+        <p id="song">1000 Nights·FRENSHIP</p>
+        <ion-row>
+          <ion-col>
+            <ion-icon name="volume-high" id="speaker"></ion-icon>
+          </ion-col>
+          <ion-col>
+              <p id="album">HACKINTOSH Z400</p> 
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="1">
+        <!-- pause play -->
+        <ion-icon name="pause"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </div>
 </ion-content>
- <!-- Ion tabs -->
- <ion-tabs>
-  <ion-tab-bar slot="bottom" color="medium">
-    <ion-tab-button tab="schedule">
-      <ion-icon name="home"></ion-icon>
-      <ion-label>Home</ion-label>
-      <!-- <ion-badge>6</ion-badge> -->
-    </ion-tab-button>
 
-    <ion-tab-button tab="speakers">
-      <ion-icon name="albums"></ion-icon>
-      <ion-label>Browse</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="map">
-      <ion-icon name="search"></ion-icon>
-      <ion-label>Search</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="map">
-      <ion-icon name="radio"></ion-icon>
-      <ion-label>Radio</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="about">
-      <ion-icon name="book"></ion-icon>
-      <ion-label>Library</ion-label>
-    </ion-tab-button>
-  </ion-tab-bar>
-</ion-tabs>
