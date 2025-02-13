@@ -1,4 +1,4 @@
-# Spotify Ionic clone
+# Spotify Ionic Capacitor clone
 A project showcasing the UI capability of @ionicplatform apps. This project is in no way related to Spotify Inc.
 
 ## IOS Layouts
